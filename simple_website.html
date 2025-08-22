@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background: #ff6b00;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      background: #333;
+      color: white;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ff6b00;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1.5rem;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      background: #333;
+      color: white;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    .btn {
+      display: inline-block;
+      background: #ff6b00;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background: #e65c00;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CV. Anugrah Pinrang</h1>
+    <p>Distributor Makanan | Sehat - Aman - Terpercaya</p>
+    <a href="#contact" class="btn">Hubungi Kami</a>
+  </header>
+
+  <nav>
+    <a href="#about">Tentang</a>
+    <a href="#services">Layanan</a>
+    <a href="#contact">Kontak</a>
+  </nav>
+
+  <section id="about">
+    <h2>Tentang Kami</h2>
+    <p>
+      CV. Anugrah Pinrang adalah distributor makanan yang menyediakan produk berkualitas tinggi 
+      dengan pelayanan terbaik. Kami berkomitmen untuk terus tumbuh dan memberikan manfaat bagi mitra bisnis.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Layanan Kami</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Distribusi Cepat</h3>
+        <p>Pengiriman tepat waktu ke seluruh wilayah.</p>
+      </div>
+      <div class="card">
+        <h3>Produk Berkualitas</h3>
+        <p>Hanya menyediakan produk makanan terbaik dan aman.</p>
+      </div>
+      <div class="card">
+        <h3>Kemitraan Luas</h3>
+        <p>Bekerja sama dengan berbagai brand ternama di Indonesia.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Kontak Kami</h2>
+    <p>Email: <a href="mailto:info@anugrahpinrang.com">info@anugrahpinrang.com</a></p>
+    <p>WhatsApp: <a href="https://wa.me/6281234567890" target="_blank">+62 812-3456-7890</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 CV. Anugrah Pinrang. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
